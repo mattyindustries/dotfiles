@@ -5,7 +5,7 @@ export PATH
 EDITOR=vim
 export EDITOR
 
-PS1="[\u@\h \W]$(__git_ps1)\$ "
+PS1='[\u@\h \W]$(__git_ps1 )\$ '
 
 pupcheck () {
   if [ "$#" -eq 1 ]; then
