@@ -7,6 +7,10 @@ export EDITOR
 
 PS1='[\u@\h \W]$(__git_ps1 )\$ '
 
+#Set Shell Options
+
+shopt -s histappend
+
 pupcheck () {
   if [ "$#" -eq 1 ]; then
     pattern="$1"
